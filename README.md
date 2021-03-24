@@ -37,6 +37,7 @@ $ npm install
 ```bash
 INSERT INTO `users` (`id`, `email`) VALUES ('1', 'mehdi.chekkouch@slackers.ma');
 ```
+
 ## Running the app
 
 ```bash
@@ -52,29 +53,26 @@ $ npm run start:prod
 
 ## Test
 
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
 ```
-
-## Support
-
 mutation{
   login(email :"mehdi.chekkouch@slackers.ma")
   }
-
+```
 ##
-
+```
 {
   "authorization" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJlbWFpbCI6Im1laGRpLmNoZWtrb3VjaEBzbGFja2Vycy5tYSIsImlhdCI6MTYxNjU5NTQzMH0.kOh86YvsG3rB25_h7zZZUqyhtO9NKurKz6OQZ_H73x0"
 }
-
+```
 ##
+
+```
+{
+    me{
+        id
+        email
+    }
+}
+```
 
 
